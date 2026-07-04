@@ -63,22 +63,6 @@
         </tr>
     </table>
     <style>
-body{
-    background-color: aqua;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-table{
-    width: 500px;
-}
-
-button{
-    width: 100%;
-    background-color: gold;
-}
-</style>
 
  </body>
 </html>

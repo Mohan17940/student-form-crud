@@ -2,13 +2,32 @@
     <head>
         <title>STUDENT info
         </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+body{
+    background-color:aqua;
+    margin:0;
+    padding:10px;
+}
+
+table{
+    width:100%;
+    max-width:500px;
+    margin:auto;
+}
+
+input,select,button{
+    width:100%;
+    box-sizing:border-box;
+}
+</style>
     </head>
-    <body style="background-color: aqua;">
+    <body>
        
    <center>
        <h1>STUDENT FORM</h1>
         <form id="formtag"  >
-    <table   border="2PX" style="width: 500px; height: 200px;">
+    <table  >
         <tr >
             <td>Name</td>
             <td><input id="name" type="text" placeholder="ENTER A NAME"></td>

@@ -5,7 +5,7 @@
     </head>
     <body style="background-color: aqua;">
        
-   <center>
+   
        <h1>STUDENT FORM</h1>
         <form id="formtag"  >
     <table   border="2PX" style="width: 500px;">
@@ -62,7 +62,7 @@
             <td>action</td>
         </tr>
     </table>
-</center>
+
  </body>
 </html>
 <script>

@@ -3,7 +3,7 @@
         <title>STUDENT info
         </title>
     </head>
-    <body style="background-color: aqua;">
+    <body >
        
    
        <h1>STUDENT FORM</h1>
@@ -62,6 +62,23 @@
             <td>action</td>
         </tr>
     </table>
+    <style>
+body{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    width: 500px;
+}
+
+button{
+    width: 100%;
+    background-color: gold;
+}
+</style>
 
  </body>
 </html>

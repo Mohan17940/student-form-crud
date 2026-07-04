@@ -8,7 +8,7 @@
    <center>
        <h1>STUDENT FORM</h1>
         <form id="formtag"  >
-    <table   border="2PX" style="width: 500px; height: 200px;">
+    <table   border="2PX" style="width: 900px; height: 200px;">
         <tr >
             <td>Name</td>
             <td><input id="name" type="text" placeholder="ENTER A NAME"></td>
@@ -94,7 +94,7 @@
      "<td>"+gender.value+"</td>"+
      "<td>"+course.value+"</td>"+
      "<td>"+email.value+"</td>"+
-     "<td><button onclick='deleteitem(event)'>Delete</button></td>"
+     "<td><button onclick='deleteitem(event)'> Delete </button></td>"
       studentTable.append(row)
       form.reset()
   }

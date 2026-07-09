@@ -4,21 +4,138 @@
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-body{
-    background-color:aqua;
+*{
     margin:0;
-    padding:10px;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+
+center{
+    width:100%;
+}
+
+h1{
+    color:white;
+    margin-bottom:20px;
+    font-size:35px;
+    letter-spacing:2px;
+    text-shadow:2px 2px 5px rgba(0,0,0,0.3);
+}
+
+form{
+    background:white;
+    width:100%;
+    max-width:550px;
+    margin:auto;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
 
 table{
     width:100%;
-    max-width:500px;
-    margin:auto;
+    border-collapse:collapse;
 }
 
-input,select,button{
+td{
+    padding:12px;
+    font-size:17px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+select{
     width:100%;
-    box-sizing:border-box;
+    padding:10px;
+    border:2px solid #ddd;
+    border-radius:8px;
+    font-size:16px;
+    transition:0.3s;
+}
+
+input:focus,
+select:focus{
+    border-color:#4facfe;
+    outline:none;
+    box-shadow:0 0 8px rgba(79,172,254,.5);
+}
+
+input[type="radio"]{
+    width:auto;
+    margin-right:5px;
+    margin-left:10px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#4facfe;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+    font-weight:bold;
+}
+
+button:hover{
+    background:#0077ff;
+    transform:scale(1.02);
+}
+
+#table{
+    margin-top:30px;
+    width:100%;
+    max-width:900px;
+    background:white;
+    border-collapse:collapse;
+    box-shadow:0 10px 20px rgba(0,0,0,0.2);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+#table th,
+#table td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+#table tr:first-child{
+    background:#0077ff;
+    color:white;
+    font-weight:bold;
+}
+
+#table tr:nth-child(even){
+    background:#f5f5f5;
+}
+
+#table tr:hover{
+    background:#d6ecff;
+}
+
+#table button{
+    background:#ff4d4d;
+    width:auto;
+    padding:8px 15px;
+    font-size:14px;
+}
+
+#table button:hover{
+    background:#cc0000;
 }
 </style>
     </head>
